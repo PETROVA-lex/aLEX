@@ -1,4 +1,4 @@
-# LUZ
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,23 +67,20 @@
         padding: 10px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
-
-    
 </style>
-  <body>
-
-    <h1>¿Queres salir por ahi conmigo?</h1>
-    <div><a  href="https://wa.me/5492657675467?text=¡SI Acepto bro!" target="_blank">
-        <button>Si</button>
-      </a>
+</head>
+<body>
+  <h1>¿Queres salir por ahi conmigo?</h1>
+  <div>
+     <button onclick="alert('Apreta boton Siguiente')">Si</button>
+    </a>
       <a href="https://www.youtube.com/watch?v=ZJoW95Y1Caw">
         <button>No</button>
-      </a>
-
-    </div>
+    </a>
+   </div>
   
     
-  <card class="card">
+  <div class="card">
         <h2>¿Qué día?</h2>
         <button onclick="alert('17:30HS')">Lunes</button>
         <button onclick="alert('17:00HS')">Martes</button>
@@ -91,16 +88,13 @@
         <button onclick="alert('17:00HS')">Jueves</button>
         <button onclick="alert('17:30HS')">Viernes</button>
         <button onclick="alert('20:00HS')">Sábado</button>
-  </card>
-  <body>
-    <head>
-        <div></div>
+  </div>
+    
+   <div>
       <a href="lugares.html">
         <button>Siguiente</button>
-
-      </a>
     </div>
-    </a>
+
   </body>
 </html>
 <!DOCTYPE html>
@@ -109,7 +103,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lugares</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
  <style>
     body {
@@ -160,10 +153,9 @@
         font-size: 2.5em;
     }
  </style>
+</head>
 <body>
     <h1>¿Dónde quieres ir?</h1>
-
-
     <div class="card">
         <h2 id="Lugares">Lugares</h2>
         <button onclick="alert('NO ES NADA')">Plaza</button>
@@ -192,5 +184,8 @@
 </a>
 
    </div>
+   <a href="https://wa.me/5492657675467?text=¡SI Acepto bro!" target="_blank">
+        <button>Acepto</button>
+      </a>
 </body>
 </html>
